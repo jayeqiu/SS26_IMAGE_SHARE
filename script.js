@@ -1,6 +1,7 @@
 let div1 = document.getElementById('div1');
 let div2 = document.getElementById('div2');
 let div3 = document.getElementById('div3');
+let div4 = document.getElementById('div4');
 let img1 = document.getElementById('img1');
 let img2 = document.getElementById('img2');
 let container = document.querySelector('.container');
@@ -16,6 +17,9 @@ div2.addEventListener('click', function() {
 });
 div3.addEventListener('click', function() {
     window.open('https://jayeqiu.github.io/diaries-of-crocodiles-2.0/', '_blank');
+});
+div4.addEventListener('click', function() {
+    window.open('https://jayeqiu.github.io/the-poetics-of-language/', '_blank');
 });
 function hideImgBox(id) {
     if (id === 1) {
